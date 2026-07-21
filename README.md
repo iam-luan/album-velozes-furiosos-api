@@ -1,21 +1,53 @@
 # 🚗 Album Velozes e Furiosos API
 
-Backend da aplicação Album Velozes e Furiosos.
+API REST desenvolvida com FastAPI para fornecer os dados do álbum de figurinhas Velozes e Furiosos.
 
-## Tecnologias
+## 🚀 Tecnologias
 
-- Python
-- Flask
-- REST API
+- Python 3
+- FastAPI
+- Uvicorn
 
-## Funcionalidades
+## 📋 Funcionalidades
 
-- Listagem de figurinhas
-- Consulta por ID
-- Integração com o frontend
+- Listagem das figurinhas
+- Consulta de figurinha por ID
+- Retorno das imagens das figurinhas
+- Configuração de CORS para integração com o frontend
 
-## Como executar
+## ▶️ Como executar
+
+Clone o projeto:
+
+```bash
+git clone https://github.com/iam-luan/album-velozes-furiosos-api.git
+```
+
+Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
-python main.py
+```
+
+Execute:
+
+```bash
+uvicorn main:app --reload
+```
+
+A API ficará disponível em:
+
+```
+http://localhost:8000
+```
+
+Documentação automática:
+
+- http://localhost:8000/docs
+- http://localhost:8000/redoc
+
+## 🎨 Frontend
+
+O frontend da aplicação está disponível em:
+
+https://github.com/iam-luan/Album-Velozes-e-furiosos-frontend
